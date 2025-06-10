@@ -15,15 +15,20 @@ font-family: Arial, sans-serif;
 }
 
 body {
-background-image: url('background1.jpg');
+background-image: url('bg-cropped.jpg');
 background-size: contain;
-background-position: center -30px;
+background-position: center -50px;
 background-repeat: no-repeat;
+height: 100vh;
+margin: 0;
+overflow: hidden;
 
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+
+margin-top: -30px; /* <-- this pushes content up */
 }
 
 a {
