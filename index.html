@@ -6,48 +6,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>My Personal Links</title>
   <style>
-    body {
-      margin: 0;
-      height: 100vh;
-      background: url('background.jpg') no-repeat center center/cover;
-      display: flex;
-      justify-content: center;
-      align-items: center; 
-      font-family: 'Arial', sans-serif;
-    }
+  body {
+margin: 0;
+padding: 0;
+background-image: url('background.jpg'); /* update name if needed */
+background-size: cover;
+background-position: center;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+font-family: Arial, sans-serif;
+}
 
-    .container {
-      background: rgba(255, 255, 255, 0.85);
-      padding: 40px 30px;
-      border-radius: 15px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-      text-align: center;
-      max-width: 90%;
-      width: 400px;
-    }
+a {
+display: block;
+margin: 15px;
+padding: 15px 30px;
+background-color: rgba(255, 255, 255, 0.2); /* semi-transparent white */
+color: #fff;
+text-decoration: none;
+border: 2px solid white;
+border-radius: 10px;
+font-size: 18px;
+transition: background-color 0.3s ease;
+backdrop-filter: blur(5px); /* frosted glass effect */
+}
 
-    .container h1 {
-      margin-bottom: 25px;
-      font-size: 28px;
-      color: #333;
-    }
-
-    .container a {
-      display: block;
-      margin: 12px 0;
-      padding: 14px 20px;
-      background-color: #f31313;
-      color: white;
-      text-decoration: none;
-      font-size: 18px;
-      border-radius: 30px;
-      transition: background-color 0.3s ease, transform 0.2s ease;
-    }
-
-    .container a:hover {
-      background-color: #fd0a0a;
-      transform: scale(1.03);
-    }
+a:hover {
+background-color: rgba(255, 255, 255, 0.4);
+}
   </style>
 </head>
 <body>
