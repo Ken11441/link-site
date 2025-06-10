@@ -1,0 +1,13 @@
+.intro-text {
+color: white;
+font-size: 3rem;
+font-weight: bold;
+margin-top: 40px;
+text-align: center;
+}
+
+@media (max-width: 768px) {
+.intro-text {
+font-size: 2.2rem;
+margin-top: 20px;
+}
